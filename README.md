@@ -1,4 +1,4 @@
-# Causal Inference — The Book of Why
+# The Book of Why
 ### A Python implementation of Pearl's causal hierarchy
 
 ---
@@ -66,7 +66,7 @@ real effect by absorbing the SES → Income pathway.
 ## Files
 
 ```
-causality_project/
+The Backdoor Criterion/
 ├── causal_model.py   — CausalDAG class (DAG, do(), backdoor, d-sep)
 ├── dataset.py        — Synthetic data generator
 ├── estimator.py      — BackdoorEstimator + naive_regression
@@ -81,6 +81,11 @@ causality_project/
 
 ```bash
 # Install dependencies
+pip install -r requirements.txt
+
+# Enter the project folder
+cd "The Backdoor Criterion" or
+cd The\ Backdoor\ Criterion
 
 # Run the full demo
 python main.py
